@@ -1,0 +1,235 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+
+    /* Add a background color or image */
+    background-color: beige;
+    background-image: url('');
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+a:link {
+  color: purple;
+}
+a:visited {
+  color:green;
+}
+
+a:hover {
+  background-color: grey;
+}
+a:active {
+  color: blue;
+}
+a:focus
+{
+  color:red;
+}
+
+.image{
+  display:fex;
+  flex-direction:row ;
+  text-align: center ;
+}
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+  font-style:normal;
+          font-weight:200;
+font-size:50px;
+   text-align:center;
+}
+
+h2 {
+font-size:30px;
+   text-align:center;
+}
+
+h3 {
+font-size:30px;
+   text-align:center;
+}
+
+
+h4 {
+font-size:30px;
+   text-align:center;
+}
+p {
+    font-variant-numeric:oldstyle-nums;
+  text-align:center;
+  font-size:20px;
+}
+
+
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+list-style:decimal;
+    text-align:center;
+}
+
+ol li {
+list-style:decimal;
+    text-align:center;
+}
+
+
+ul {
+  list-style:georgian;
+}
+
+ul li {
+list-style:georgian;
+    text-align:center;
+}
+.navbar ul
+{
+  display: flex;
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 60px;
+      border-radius: 20px;
+      flex-basis: 60%;
+}
+.navbar ul li{
+    list-style: none;
+  float:inline-end;
+  margin:auto;
+}
+.navbar ul li a 
+{
+  list-style: none;
+  display:box;
+  text-decoration: none;
+  background-color: darkgreen;
+  color: beige;
+  text-align: center;
+  padding: 17px 30px ;
+  border: 30px;
+}
+.navbar li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   display: block;
+  text-decoration: none;
+  background-color: darkgreen;
+  color: beige;
+}
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color:  #008CBA;
+  border: 30px;
+  color: beige;
+  font-size: 16px;
+  margin:15px;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+.buttons
+{
+  text-align: center;
+}
+button:hover
+{
+  color: grey;
+}
+
+
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+  display:flex;
+  flex-direction:column ;
+ text-align:center;
+  padding-top: 55px;
+  margin-top:55px;
+  margin-bottom: 40px;
+}
+
+button.header-item
+{
+  background-color:#008CBA;
+  text-align: center;
+  font-size:16px;
+  color:beige;
+  padding: 17px 30px;
+  margin: 15px;
+  border: none;
+  cursor: pointer;
+}
+button.header-item:hover
+{
+  color:grey;
+}
+
+.header-item:nth-of-type(1) {
+  width: 50% 50%;
+}
+
+.header-item:nth-of-type(2) {
+  width: 50% 50%;
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+img.header-img {
+  text-align: center;
+width: 500px ;
+  height: 300px;
+  
+}
